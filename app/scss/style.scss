@@ -1,0 +1,18 @@
+@import "vars";
+@import "fonts";
+@import "reset";
+@import "global";
+@import "media";
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: $text;
+}
+
+.container{
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
